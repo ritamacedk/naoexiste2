@@ -1,0 +1,72 @@
+@media(max-width:480px) {
+    body {
+        background-color: rgba(63, 164, 75, 0.793);
+        
+    }
+    h1{
+        font-size: 24px;
+       
+    }
+    .texto{
+        display: none;
+
+    }
+    p{
+        text-align: center;
+    }
+    
+}
+
+@media(min-width:481px) and (max-width:767px) {
+    body {
+        background-color: blueviolet;
+    }
+    h1{
+        font-size: 32px;
+
+    }
+    .texto{
+        display: none;
+
+    }
+    p{
+        justify-content: center;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    body {
+        background-color: rgba(50, 64, 185, 0.662);
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        justify-content: center;
+    }
+}
+
+@media(min-width:1024px) {
+    body {
+        background-color: rgb(152, 39, 148);
+
+    }
+    h1{
+        font-size: 48px;
+    }
+    p{
+        text-align: left;
+    }
+}
+
+@media(min-width:900px){
+    .rodapeitem{
+        display: flex;
+    }
+}
+
+@media(max-width:1000px){
+}
+    .formulario{
+        display: none;
+    }

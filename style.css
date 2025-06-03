@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+body {
+
+    font-family: "Tagesschrift", sans-serif;
+    font-family: "Vollkorn", sans-serif;
+}
+
+.menu ul li {
+
+    display: inline-block;
+    padding: 46px;
+    font-size: 22px;
+
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(128, 13, 78);
+
+}
+
+.menu li {
+    text-decoration: none;
+    color: rgb(128, 13, 78);
+    font-size: 18px;
+
+}
+
+.menu li a:hover {
+    color: rgb(43, 188, 43);
+}
+
+
+
+.logotipo img {
+    width: 150px;
+
+
+}
+
+.logotipo {
+    float: left;
+
+}
+
+.menu {
+    background-color: rgb(255, 240, 251);
+
+}
+
+
+.textinho {
+    text-align: center;
+    font-family: "Vollkorn", sans-serif;
+    font-size: 25px;
+    background-color: rgb(78 126 103 / 63%);
+    padding: 40px;
+    margin: 60px;
+    text-align: justify;
+}
+
+.textinho hr {
+    visibility: hidden;
+}
+
+.produtos h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(67, 31, 101);
+    font-family: "Vollkorn", sans-serif;
+
+
+}
+
+.item img {
+    width: 250px;
+
+}
+
+.item {
+    padding: 15px;
+    margin: 40px;
+    background-color: rgb(70 106 113 / 59%);
+    display: inline-block;
+    width: 250px;
+    font-weight: bold;
+}
+
+.descricao {
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.produtos a {
+    text-decoration: none;
+}
+
+.avaliacoes {
+    padding: 15px;
+    margin: 40px;
+    background-color: rgb(73 105 85);
+    display: inline-block;
+
+}
+
+.descricaoava img {
+    width: 250px;
+    border-radius: 100%;
+
+}
+
+.h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.produtoimg img {
+    width: 350px;
+
+
+}
+
+.produto {
+    background-color: rgb(191, 194, 197);
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    line-height: 100px;
+}
+
+.descricao h1 {
+
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+
+.avaliacoes {
+    width: 300px;
+    text-align: center;
+    line-height: 30px;
+    padding: 20px;
+    font-size: 20px;
+    margin: 50px 80px;
+
+}
+
+.comprar a {
+    margin: 20px;
+    width: 250px;
+    border-radius: 100px;
+    border: 0;
+    font-size: 20px;
+    background-color: #fff0fb;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+.rodapeitem {
+
+   
+    padding: 30px;
+}
+
+.rodapeitem h2 {
+    color: #fff0fb;
+    font-size: 30px;
+    font-family: "Vollkorn", sans-serif;
+    text-align: justify;
+    padding: 20px 0px;
+}
+
+.rodapeitem p {
+    color: #fff0fb;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+@media(min-width:900px){
+    .rodapeitem{
+        display: flex;
+    }
+}
+@media(max-width:1000px){
+    .formulario{
+        display: none;
+    }
+}
+.dados,
+.redes,
+.desenvolvido {
+    display: inline-block;
+}
+
+.menuitemrodape a:hover {
+    color: #22b62e;
+}
+
+.menuitemrodape a {
+    text-decoration: none;
+    color: #fff0fb;
+    padding: 20px 0px;
+    font-size: 20px;
+
+}
+
+.menuitemrodape p {
+    text-decoration: none;
+    color: #fff0fb;
+    font-size: 18px;
+}
+
+footer {
+    background-color: rgb(51 32 69);
+}
+
+.formulario input {
+    border-color: rgb(198 75 136);
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    border-width: 5px;
+}
+
+.botao input {
+    width: 140px;
+    background-color: rgb(198 75 136);
+
+}
+
+.formulario {
+    padding: 30px;
+}
+
+.redes i {
+    color: #fff0fb;
+    display: flex;
+    padding: 10px;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.contato {
+    display: inline-block;
+    background-color: #9ddba2;
+    padding: 40px;
+    margin: 100px;
+}
+
+.endereço h3,
+.telefone h3,
+.email h3 {
+    font-size: 30px;
+
+}
+
+.endereço p,
+.telefone p,
+.email p {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.mapa iframe {
+    padding: 0 450px;
+    padding-bottom: 60px;
+}
+
+.divisaosobre {
+    background-color: #dcc3d5;
+    margin: 50px;
+    padding: 40px;
+    display: inline-block;
+    width: 20%;
+    border-radius: 4%;
+}
+.missao h2,
+.visao h2,
+.compromisso h2{
+    font-size: 30px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+.missao p,
+.visao p,
+.compromisso p{
+font-size: 20px;
+
+}
+.loja{
+  background: url('img/fotoloja.png')
+     80% / cover no-repeat fixed;
+     height: 280px;
+   
+}
+.texto{
+    width: 50%;
+    background-color: #ab95a5;
+    height: 280px;
+    padding: 15px;
+}
+.texto h3{
+font-size: 30px;
+font-weight: bold;
+padding-bottom: 20px;
+}
+.texto p{
+font-size: 20px;
+}
+.historia{
+    background-color: #a958a9;
+    padding: 30px;
+   
+text-align:justify;
+}
+.historia h2{
+    text-align: center;
+  font-size: 30px;
+    padding-bottom: 15px;
+    font-weight: bold;   
+}
+.historia p{ 
+    font-size: 25px;
+    padding: 0 80px;
+    line-height: 25px;
+}
